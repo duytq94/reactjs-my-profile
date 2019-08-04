@@ -94,10 +94,10 @@ export default class App extends Component {
                         <span className={'textTitleItemBody'}>Career Profile</span>
                     </div>
                     <div className={'viewWrapContentItemBody'}>
-                        <span className={'textContentItemBody1'}>Mobile developer with 2.5 years’ experience. I work with Android, React Native, and Flutter (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client.
+                        <span className={'textContentItemBody1'}>Mobile developer with 2.5 years’ experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client.
                         </span>
                         <div style={{height: '10px'}}/>
-                        <span className={'textContentItemBody1'}>Learn new languages or platforms quickly with a positive attitude. Can work with all steps in a project from setup, initialize to upload to store.
+                        <span className={'textContentItemBody1'}>Learn new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release.
                         </span>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ export default class App extends Component {
                         <IconContext.Provider value={{color: '#f99930', size: "20px"}}>
                             <MdWork/>
                         </IconContext.Provider>
-                        <span className={'textTitleItemBody'}>Work Experience</span>
+                        <span className={'textTitleItemBody'}>Experience</span>
                     </div>
                     <div className={'viewWrapContentItemBody'}>
                         <span className={'textContentItemBody'}>Mobile developer at Beesight Soft</span>
