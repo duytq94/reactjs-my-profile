@@ -4,7 +4,7 @@
   "homepage": "https://duytq94.github.io/reactjs-my-profile",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
