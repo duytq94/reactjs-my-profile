@@ -6,6 +6,7 @@ import {IconContext} from 'react-icons'
 import {MdEmail, MdPhone, MdVpnKey, MdWork} from "react-icons/md";
 import {FaAward, FaGraduationCap, FaMedium, FaPeopleCarry, FaSkype, FaUser, FaYoutube} from "react-icons/fa";
 import {GoProject, GoRepoForked} from "react-icons/go";
+import moment from "moment";
 
 export default class App extends Component {
     render() {
@@ -83,6 +84,9 @@ export default class App extends Component {
     }
 
     renderBody = () => {
+        let quantityYear = moment().diff('01/03/2017', 'years')
+        let quantityMonth = moment().diff('01/03/2017', 'months')
+        let remainMonth = 12 * Math.round(quantityMonth / 12) - quantityMonth
         return (
             <div className={'viewBody'}>
                 {/*Career Profile*/}
@@ -94,10 +98,10 @@ export default class App extends Component {
                         <span className={'textTitleItemBody'}>Career Profile</span>
                     </div>
                     <div className={'viewWrapContentItemBody'}>
-                        <span className={'textContentItemBody1'}>Mobile developer with 2.5 years’ experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client.
-                        </span>
+                        <span
+                            className={'textContentItemBody1'}>{`Mobile developer with ${quantityYear} years ${remainMonth} months experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client}`}</span>
                         <div style={{height: '10px'}}/>
-                        <span className={'textContentItemBody1'}>Learn new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release.
+                        <span className={'textContentItemBody1'}>Learn new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release
                         </span>
                     </div>
                 </div>
