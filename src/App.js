@@ -269,6 +269,7 @@ export default class App extends Component {
                     <div className={'viewWrapContentItemBody'}>
                         <span className={'textContentItemBody1'}>Full UIT Scholarship - 2014, 2015, 2016, 2017</span>
                         <span className={'textContentItemBody1'}>Students of 5 merits UIT - 2013, 2014</span>
+                        <div style={{height: '10px'}}/>
                         <a className={'textContentItemBody1'}
                            href={'https://drive.google.com/drive/folders/1OXSAywqeUyCjz2YZ0pM1c4hj9qRwLreD?usp=sharing'}
                            target="_blank">My certificates</a>
