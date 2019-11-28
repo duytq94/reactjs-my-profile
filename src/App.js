@@ -3,7 +3,7 @@ import './App.css'
 import './AppMobile.css'
 import images from "./images";
 import {IconContext} from 'react-icons'
-import {MdEmail, MdPhone, MdVpnKey, MdWork} from "react-icons/md";
+import {MdApps, MdEmail, MdPhone, MdVpnKey, MdWork} from "react-icons/md";
 import {FaAward, FaGraduationCap, FaMedium, FaPeopleCarry, FaSkype, FaUser, FaYoutube} from "react-icons/fa";
 import {GoProject, GoRepoForked} from "react-icons/go";
 import moment from "moment";
@@ -84,9 +84,15 @@ export default class App extends Component {
     }
 
     renderBody = () => {
-        let quantityYear = moment().diff('01/03/2017', 'years')
-        let quantityMonth = moment().diff('01/03/2017', 'months')
-        let remainMonth = 12 * Math.round(quantityMonth / 12) - quantityMonth
+        let a = moment()
+        let b = moment([2017, 3, 1])
+
+        let years = a.diff(b, 'year')
+        b.add(years, 'years')
+
+        let months = a.diff(b, 'months')
+        b.add(months, 'months')
+
         return (
             <div className={'viewBody'}>
                 {/*Career Profile*/}
@@ -99,7 +105,7 @@ export default class App extends Component {
                     </div>
                     <div className={'viewWrapContentItemBody'}>
                         <span
-                            className={'textContentItemBody1'}>{`Mobile developer with ${quantityYear} years ${remainMonth} months experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client}`}</span>
+                            className={'textContentItemBody1'}>{`Mobile developer with ${years} years ${months} months experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client}`}</span>
                         <div style={{height: '10px'}}/>
                         <span className={'textContentItemBody1'}>Learn new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release
                         </span>
@@ -122,6 +128,24 @@ export default class App extends Component {
                         <div style={{height: '10px'}}/>
                         <span className={'textContentItemBody'}>Mobile developer at Pharmacity</span>
                         <span className={'textContentItemBody2'}>December 2018 - Present</span>
+                    </div>
+                </div>
+
+                <div className={'breakLine'}/>
+
+                {/*My product*/}
+                <div className={'viewWrapItemBody'}>
+                    <div className={'viewWrapTitleItemBody'}>
+                        <IconContext.Provider value={{color: '#f99930', size: "20px"}}>
+                            <MdApps/>
+                        </IconContext.Provider>
+                        <span className={'textTitleItemBody'}>My Product</span>
+                    </div>
+                    <div className={'viewWrapContentItemBody'}>
+                        <span className={'textContentItemBody'}>Moga</span>
+                        <span className={'textContentItemBody1'}>My own product with Full-Stack operations</span>
+                        <a className={'textContentItemBody1'} href={'https://moga-app.web.app'}
+                           target="_blank">https://moga-app.web.app</a>
                     </div>
                 </div>
 
@@ -192,11 +216,11 @@ export default class App extends Component {
                         <span className={'textContentItemBody1'}>English - good</span>
                         <span className={'textContentItemBody1'}>Unity3D - basic</span>
                         <div style={{height: '10px'}}/>
-                        <span className={'textContentItemBody1'}>NodeJS (RESTful API, SocketIO)</span>
-                        <span className={'textContentItemBody1'}>AWS (DynamoDB, Lambda function, API Gateway, Cloud Watch, Cloud Formation, Cognito, S3), AWS Amplify</span>
+                        <span className={'textContentItemBody1'}>NodeJS (Auth, RESTful API, SocketIO)</span>
+                        <span className={'textContentItemBody1'}>AWS (DynamoDB, Lambda function, API Gateway, Cloud Watch, Cloud Formation, Cognito, S3, Lightsail), AWS Amplify</span>
                         <span
                             className={'textContentItemBody1'}>Firebase (Authentication, Database, Functions, Storage, Hosting)</span>
-                        <span className={'textContentItemBody1'}>Database client (Realm, PouchDB)</span>
+                        <span className={'textContentItemBody1'}>Database client (Realm, PouchDB, CouchDB)</span>
                         <span className={'textContentItemBody1'}>App center, OneSignal, Apollo GraphQL, Relay, Sendbird, SignalR, Redux, Webpack, ElectronJS...</span>
                     </div>
                 </div>
