@@ -105,7 +105,7 @@ export default class App extends Component {
                     </div>
                     <div className={'viewWrapContentItemBody'}>
                         <span
-                            className={'textContentItemBody1'}>{`Mobile developer with ${years} years ${months} months experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client}`}</span>
+                            className={'textContentItemBody1'}>{`Mobile developer with ${years} years ${months} months experience. I work with React Native, Flutter and Android (include UI, UX, template, codebase, network communication, thread, socket, database client...), can build a server with common functions to communicate between backend and client`}</span>
                         <div style={{height: '10px'}}/>
                         <span className={'textContentItemBody1'}>Learn new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release
                         </span>
@@ -219,7 +219,7 @@ export default class App extends Component {
                         <span className={'textContentItemBody1'}>NodeJS (Auth, RESTful API, SocketIO)</span>
                         <span className={'textContentItemBody1'}>AWS (DynamoDB, Lambda function, API Gateway, Cloud Watch, Cloud Formation, Cognito, S3, Lightsail), AWS Amplify</span>
                         <span
-                            className={'textContentItemBody1'}>Firebase (Authentication, Database, Functions, Storage, Hosting)</span>
+                            className={'textContentItemBody1'}>Firebase (Authentication, Database, Functions, Storage, Hosting, Cloud Messaging)</span>
                         <span className={'textContentItemBody1'}>Database client (Realm, PouchDB, CouchDB)</span>
                         <span className={'textContentItemBody1'}>App center, OneSignal, Apollo GraphQL, Relay, Sendbird, SignalR, Redux, Webpack, ElectronJS...</span>
                     </div>
