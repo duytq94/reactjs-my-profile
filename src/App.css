@@ -127,6 +127,7 @@ button:active {
         color: var(--charcoalGrey);
         font-size: var(--small);
         font-family: 'regular';
+        text-align: justify;
     }
 
     .textContentItemBody2 {

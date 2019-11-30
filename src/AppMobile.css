@@ -112,6 +112,7 @@
         color: var(--charcoalGrey);
         font-size: var(--tiny);
         font-family: 'regular';
+        text-align: justify;
     }
 
     .textContentItemBody2 {
