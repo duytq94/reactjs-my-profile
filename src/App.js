@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
 import './App.css'
 import './AppMobile.css'
-import images from "./images";
+import images from "./images"
 import {IconContext} from 'react-icons'
-import {MdApps, MdEmail, MdPhone, MdVpnKey, MdWork} from "react-icons/md";
-import {FaAward, FaGraduationCap, FaMedium, FaPeopleCarry, FaSkype, FaUser, FaYoutube} from "react-icons/fa";
-import {GoProject, GoRepoForked} from "react-icons/go";
-import moment from "moment";
+import {MdApps, MdEmail, MdPhone, MdVpnKey, MdWork} from "react-icons/md"
+import {FaAward, FaGraduationCap, FaMedium, FaPeopleCarry, FaSkype, FaUser, FaYoutube} from "react-icons/fa"
+import {GoProject, GoRepoForked} from "react-icons/go"
+import moment from "moment"
 
 export default class App extends Component {
     render() {
@@ -142,10 +142,15 @@ export default class App extends Component {
                         <span className={'textTitleItemBody'}>My Product</span>
                     </div>
                     <div className={'viewWrapContentItemBody'}>
-                        <span className={'textContentItemBody'}>Moga</span>
                         <span className={'textContentItemBody1'}>My own product with Full-Stack operations</span>
+                        <div style={{height: '10px'}}/>
+                        <span className={'textContentItemBody'}>Moga</span>
                         <a className={'textContentItemBody1'} href={'https://moga-app.web.app'}
                            target="_blank">https://moga-app.web.app</a>
+                        <div style={{height: '10px'}}/>
+                        <span className={'textContentItemBody'}>Nubo</span>
+                        <a className={'textContentItemBody1'} href={'https://nubo-app.web.app'}
+                           target="_blank">https://nubo-app.web.app</a>
                     </div>
                 </div>
 
