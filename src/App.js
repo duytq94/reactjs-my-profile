@@ -39,7 +39,7 @@ export default class App extends Component {
                             <IconContext.Provider value={{color: 'white', size: "15px"}}>
                                 <MdEmail/>
                             </IconContext.Provider>
-                            <a href={'mailto:tranquangduy7994@gmail.com'} target="_blank"
+                            <a href={'mailto:tranquangduy7994@gmail.com'} target="_blank" rel="noopener noreferrer"
                                style={{'text-decoration': 'none'}}>
                                 <span className={'textItemContact'}>tranquangduy7994@gmail.com</span>
                             </a>
@@ -51,7 +51,7 @@ export default class App extends Component {
                             <IconContext.Provider value={{color: 'white', size: "15px"}}>
                                 <FaSkype/>
                             </IconContext.Provider>
-                            <a href={'skype:live:tranquangduy7994?chat'} target="_blank"
+                            <a href={'skype:live:tranquangduy7994?chat'} target="_blank" rel="noopener noreferrer"
                                style={{'text-decoration': 'none'}}>
                                 <span className={'textItemContact'}>live:tranquangduy7994</span>
                             </a>
@@ -73,7 +73,7 @@ export default class App extends Component {
                                 <FaYoutube/>
                             </IconContext.Provider>
                             <a href={'https://www.youtube.com/channel/UCm1P4sXurpe5u4_V_FDokiQ?view_as=subscriber'}
-                               target="_blank" style={{'text-decoration': 'none'}}>
+                               target="_blank" rel="noopener noreferrer" style={{'text-decoration': 'none'}}>
                                 <span className={'textItemContact'}>My channel</span>
                             </a>
                         </div>
@@ -146,11 +146,11 @@ export default class App extends Component {
                         <div style={{height: '10px'}}/>
                         <span className={'textContentItemBody'}>Moga</span>
                         <a className={'textContentItemBody1'} href={'https://moga-app.web.app'}
-                           target="_blank">https://moga-app.web.app</a>
+                           target="_blank" rel="noopener noreferrer">https://moga-app.web.app</a>
                         <div style={{height: '10px'}}/>
                         <span className={'textContentItemBody'}>Nubo</span>
                         <a className={'textContentItemBody1'} href={'https://nubo-app.web.app'}
-                           target="_blank">https://nubo-app.web.app</a>
+                           target="_blank" rel="noopener noreferrer">https://nubo-app.web.app</a>
                     </div>
                 </div>
 
@@ -167,20 +167,21 @@ export default class App extends Component {
                     <div className={'viewWrapContentItemBody'}>
                         <span className={'textContentItemBody'}>Github</span>
                         <a className={'textContentItemBody1'} href={'https://github.com/duytq94'}
-                           target="_blank">https://github.com/duytq94</a>
+                           target="_blank" rel="noopener noreferrer">https://github.com/duytq94</a>
 
                         <div style={{height: '10px'}}/>
 
                         <span className={'textContentItemBody'}>Dart packages</span>
                         <a className={'textContentItemBody1'} href={'https://pub.dartlang.org/packages/intro_slider'}
-                           target="_blank">https://pub.dartlang.org/packages/intro_slider</a>
+                           target="_blank" rel="noopener noreferrer">https://pub.dartlang.org/packages/intro_slider</a>
 
                         <div style={{height: '10px'}}/>
 
                         <span className={'textContentItemBody'}>NPM</span>
                         <a className={'textContentItemBody1'}
                            href={'https://www.npmjs.com/package/react-native-honeywell-barcode-reader'}
-                           target="_blank">https://www.npmjs.com/package/react-native-honeywell-barcode-reader</a>
+                           target="_blank"
+                           rel="noopener noreferrer">https://www.npmjs.com/package/react-native-honeywell-barcode-reader</a>
                     </div>
                 </div>
 
@@ -197,7 +198,7 @@ export default class App extends Component {
                     <div className={'viewWrapContentItemBody'}>
                         <span className={'textContentItemBody'}>Medium</span>
                         <a className={'textContentItemBody1'} href={'https://medium.com/@duytq94'}
-                           target="_blank">https://medium.com/@duytq94</a>
+                           target="_blank" rel="noopener noreferrer">https://medium.com/@duytq94</a>
                     </div>
                 </div>
 
@@ -246,8 +247,10 @@ export default class App extends Component {
                             <span className={'textContentItemBody1'}>&#9679; MatchMe (outsourcing, contribution rate 80%) - The app to connect and join an activity with another person (DynamoDB, Lambda function, Map, Sendbird...)</span>
                             <span className={'textContentItemBody1'}>&#9679; BitAds (small product, contribution rate 100%) - The app to post, view digital cash market (Apollo GraphQL...)</span>
                             <span className={'textContentItemBody1'}>&#9679; MSS (outsourcing, contribution rate 100%) - The app to control, handle the staff, the job in the company (Redux, OneSignal...)</span>
-                            <span className={'textContentItemBody1'}>&#9679; PMCAudit (internal product, contribution rate 100%) - The app to audit products in store by scanning barcode with Honeywell devices (Handle big local data, synchronized, processing barcode input...)</span>
-                            <span className={'textContentItemBody1'}>&#9679; PMCEmployee (internal product, contribution rate 30%) -  app for internal activities in the company help employee track working time, qaqc, report...</span>
+                            <span className={'textContentItemBody1'}>&#9679; PMCAudit (internal app, contribution rate 100%) - The app to audit products in store by scanning barcode with Honeywell devices (Handle big local data, synchronized, processing barcode input,...)</span>
+                            <span className={'textContentItemBody1'}>&#9679; PMCMedia (internal app, contribution rate 100%) - The app runs on android boxes to display promotional videos on television screens at Pharmacity chain stores (Live sync video, can work without network connection)</span>
+                            <span className={'textContentItemBody1'}>&#9679; PMCPOS (internal app, contribution rate 20%) - The app for store staff when out of stock can order online for delivery to customers from other warehouses</span>
+                            <span className={'textContentItemBody1'}>&#9679; PMCEmployee (internal app, contribution rate 30%) - The app for internal activities in the company help employee track working time, view revenue, QA/QC, report,...</span>
                         </div>
 
                         <div style={{height: '10px'}}/>
@@ -262,7 +265,7 @@ export default class App extends Component {
 
                         <span className={'textContentItemBody'}>Flutter</span>
                         <div className={'viewWrapChildContent'}>
-                            <span className={'textContentItemBody1'}>&#9679; DailyPrayer (freelance, contribution rate 100%) - The app to make plan a for your prayers (Firebase, Chat, Reminder, Notification...)</span>
+                            <span className={'textContentItemBody1'}>&#9679; DailyPrayer (freelancing, contribution rate 100%) - The app to make plan a for your prayers (Firebase, Chat, Reminder, Notification...)</span>
                             <span className={'textContentItemBody1'}>&#9679; Some demo in my Github</span>
                         </div>
                     </div>
@@ -301,7 +304,7 @@ export default class App extends Component {
                         <div style={{height: '10px'}}/>
                         <a className={'textContentItemBody1'}
                            href={'https://drive.google.com/drive/folders/1OXSAywqeUyCjz2YZ0pM1c4hj9qRwLreD?usp=sharing'}
-                           target="_blank">My certificates</a>
+                           target="_blank" rel="noopener noreferrer">My certificates</a>
                     </div>
                 </div>
 
