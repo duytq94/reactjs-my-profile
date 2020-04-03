@@ -129,7 +129,7 @@ export default class App extends Component {
             <span className={'textContentItemBody'}>Mobile developer at Pharmacity</span>
             <span className={'textContentItemBody2'}>December 2018 - February 2020</span>
             <div style={{height: '10px'}}/>
-            <span className={'textContentItemBody'}>Mobile developer at Tiki</span>
+            <span className={'textContentItemBody'}>Mobile developer at TIKI</span>
             <span className={'textContentItemBody2'}>March 2020 - Present</span>
           </div>
         </div>
