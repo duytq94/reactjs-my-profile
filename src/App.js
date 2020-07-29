@@ -63,7 +63,7 @@ export default class App extends Component {
               <IconContext.Provider value={{color: 'white', size: "15px"}}>
                 <MdPhone/>
               </IconContext.Provider>
-              <span className={'textItemContact'}>0908698938</span>
+              <span className={'textItemContact'}>Not available</span>
             </div>
           </div>
 
