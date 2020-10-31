@@ -216,14 +216,12 @@ export default class App extends Component {
             <span className={'textTitleItemBody'}>Key Skills</span>
           </div>
           <div className={'viewWrapContentItemBody'}>
-            <span className={'textContentItemBody1'}>React Native - good</span>
-            <span className={'textContentItemBody1'}>ReactJS - intermediate</span>
-            <span className={'textContentItemBody1'}>Android - intermediate</span>
-            <span className={'textContentItemBody1'}>Flutter - intermediate</span>
-            <span className={'textContentItemBody1'}>Backend - intermediate</span>
-            <span className={'textContentItemBody1'}>Git - good</span>
-            <span className={'textContentItemBody1'}>English - good</span>
-            <span className={'textContentItemBody1'}>Unity3D - basic</span>
+            <span className={'textContentItemBody1'}>Flutter</span>
+            <span className={'textContentItemBody1'}>React Native</span>
+            <span className={'textContentItemBody1'}>ReactJS</span>
+            <span className={'textContentItemBody1'}>Android</span>
+            <span className={'textContentItemBody1'}>Backend</span>
+            <span className={'textContentItemBody1'}>Unity3D</span>
             <div style={{height: '10px'}}/>
             <span className={'textContentItemBody1'}>NodeJS (Auth, RESTful API, SocketIO)</span>
             <span className={'textContentItemBody1'}>AWS (DynamoDB, Lambda function, API Gateway, Cloud Watch, Cloud Formation, Cognito, S3, Lightsail), AWS Amplify</span>
@@ -260,6 +258,7 @@ export default class App extends Component {
 
             <span className={'textContentItemBody'}>Android</span>
             <div className={'viewWrapChildContent'}>
+              <span className={'textContentItemBody1'}>&#9679; Tiki - checkout flow & my profile</span>
               <span className={'textContentItemBody1'}>&#9679; Tacko (outsourcing, contribution rate 20%) - The app to buy and sell handle products when you travel</span>
               <span className={'textContentItemBody1'}>&#9679; FeedMe (outsourcing, contribution rate 20%) - The app to sell and buy food</span>
             </div>
@@ -268,8 +267,9 @@ export default class App extends Component {
 
             <span className={'textContentItemBody'}>Flutter</span>
             <div className={'viewWrapChildContent'}>
-              <span className={'textContentItemBody1'}>&#9679; DailyPrayer (freelancing, contribution rate 100%) - The app to make plan a for your prayers (Firebase, Chat, Reminder, Notification...)</span>
+              <span className={'textContentItemBody1'}>&#9679; Flutter integration - Add Flutter to Tiki native app as a module</span>
               <span className={'textContentItemBody1'}>&#9679; Some demo in my Github</span>
+              <span className={'textContentItemBody1'}>&#9679; DailyPrayer (freelancing, contribution rate 100%) - The app to make plan a for your prayers (Firebase, Chat, Reminder, Notification...)</span>
             </div>
           </div>
         </div>
