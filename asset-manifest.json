@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactjs-my-profile/static/css/main.c805a85d.chunk.css",
+    "main.js": "/reactjs-my-profile/static/js/main.bb1f029b.chunk.js",
+    "main.js.map": "/reactjs-my-profile/static/js/main.bb1f029b.chunk.js.map",
+    "runtime~main.js": "/reactjs-my-profile/static/js/runtime~main.81122daf.js",
+    "runtime~main.js.map": "/reactjs-my-profile/static/js/runtime~main.81122daf.js.map",
+    "static/js/2.297fef43.chunk.js": "/reactjs-my-profile/static/js/2.297fef43.chunk.js",
+    "static/js/2.297fef43.chunk.js.map": "/reactjs-my-profile/static/js/2.297fef43.chunk.js.map",
+    "index.html": "/reactjs-my-profile/index.html",
+    "precache-manifest.74002c9618a0f5c1e359545dd812cadd.js": "/reactjs-my-profile/precache-manifest.74002c9618a0f5c1e359545dd812cadd.js",
+    "service-worker.js": "/reactjs-my-profile/service-worker.js",
+    "static/css/main.c805a85d.chunk.css.map": "/reactjs-my-profile/static/css/main.c805a85d.chunk.css.map",
+    "static/media/avatar.jpg": "/reactjs-my-profile/static/media/avatar.bfcc9865.jpg",
+    "static/media/App.css": "/reactjs-my-profile/static/media/iCielVAGRoundedNext-Regular.5ea7b2a9.otf"
+  }
+}
