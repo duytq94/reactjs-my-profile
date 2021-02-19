@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/reactjs-my-profile/static/css/main.c805a85d.chunk.css",
-    "main.js": "/reactjs-my-profile/static/js/main.41fab0f4.chunk.js",
-    "main.js.map": "/reactjs-my-profile/static/js/main.41fab0f4.chunk.js.map",
+    "main.js": "/reactjs-my-profile/static/js/main.e424a53b.chunk.js",
+    "main.js.map": "/reactjs-my-profile/static/js/main.e424a53b.chunk.js.map",
     "runtime~main.js": "/reactjs-my-profile/static/js/runtime~main.81122daf.js",
     "runtime~main.js.map": "/reactjs-my-profile/static/js/runtime~main.81122daf.js.map",
     "static/js/2.297fef43.chunk.js": "/reactjs-my-profile/static/js/2.297fef43.chunk.js",
     "static/js/2.297fef43.chunk.js.map": "/reactjs-my-profile/static/js/2.297fef43.chunk.js.map",
     "index.html": "/reactjs-my-profile/index.html",
-    "precache-manifest.0eb13696efa7d6cbd706eed99c177085.js": "/reactjs-my-profile/precache-manifest.0eb13696efa7d6cbd706eed99c177085.js",
+    "precache-manifest.0b9424ac87c19fa741a0cd48bc0c2a52.js": "/reactjs-my-profile/precache-manifest.0b9424ac87c19fa741a0cd48bc0c2a52.js",
     "service-worker.js": "/reactjs-my-profile/service-worker.js",
     "static/css/main.c805a85d.chunk.css.map": "/reactjs-my-profile/static/css/main.c805a85d.chunk.css.map",
-    "static/media/avatar.png": "/reactjs-my-profile/static/media/avatar.404cf50a.png",
+    "static/media/avatar.jpg": "/reactjs-my-profile/static/media/avatar.5445258a.jpg",
     "static/media/App.css": "/reactjs-my-profile/static/media/iCielVAGRoundedNext-Regular.5ea7b2a9.otf"
   }
 }
