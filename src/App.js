@@ -3,7 +3,7 @@ import './App.css'
 import './AppMobile.css'
 import images from "./images"
 import {IconContext} from 'react-icons'
-import {MdApps, MdEmail, MdPhone, MdVpnKey, MdWork} from "react-icons/md"
+import {MdApps, MdEmail, MdVpnKey, MdWork} from "react-icons/md"
 import {FaAward, FaGraduationCap, FaMedium, FaPeopleCarry, FaSkype, FaUser, FaYoutube} from "react-icons/fa"
 import {GoProject, GoRepoForked} from "react-icons/go"
 import moment from "moment"
@@ -61,15 +61,6 @@ export default class App extends Component {
           <div className={'viewWrapItemContact'}>
             <div className={'btnItemContact'}>
               <IconContext.Provider value={{color: 'white', size: "15px"}}>
-                <MdPhone/>
-              </IconContext.Provider>
-              <span className={'textItemContact'}>Not available</span>
-            </div>
-          </div>
-
-          <div className={'viewWrapItemContact'}>
-            <div className={'btnItemContact'}>
-              <IconContext.Provider value={{color: 'white', size: "15px"}}>
                 <FaYoutube/>
               </IconContext.Provider>
               <a href={'https://www.youtube.com/channel/UCm1P4sXurpe5u4_V_FDokiQ?view_as=subscriber'}
@@ -104,11 +95,15 @@ export default class App extends Component {
             <span className={'textTitleItemBody'}>Career Profile</span>
           </div>
           <div className={'viewWrapContentItemBody'}>
-                        <span
-                          className={'textContentItemBody1'}>{`Mobile developer with ${years} years ${months} months experience. I work with React Native, Flutter and Android`}</span>
-            <span className={'textContentItemBody1'}>Having ability to build the backend with common functions, full basic flow to communicate between backend and client</span>
-            <span className={'textContentItemBody1'}>Learning new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release
-                        </span>
+            <span className={'textContentItemBody1'}>
+              {`A Mobile developer with healthy body and ${years} years ${months} months of practical programming experience. Familiar with Flutter, React Native and Android.`}
+            </span>
+            <span className={'textContentItemBody1'}>
+              Having ability to build the backend with common functions, full basic flow to communicate between backend and client.
+            </span>
+            <span className={'textContentItemBody1'}>
+              Learning new languages or platforms quickly with a positive attitude. Can join in all process of product development from initialize to store release.
+            </span>
           </div>
         </div>
 
@@ -218,8 +213,8 @@ export default class App extends Component {
           <div className={'viewWrapContentItemBody'}>
             <span className={'textContentItemBody1'}>Flutter</span>
             <span className={'textContentItemBody1'}>React Native</span>
-            <span className={'textContentItemBody1'}>ReactJS</span>
             <span className={'textContentItemBody1'}>Android</span>
+            <span className={'textContentItemBody1'}>ReactJS</span>
             <span className={'textContentItemBody1'}>Backend</span>
             <span className={'textContentItemBody1'}>Unity3D</span>
             <div style={{height: '10px'}}/>
@@ -228,7 +223,8 @@ export default class App extends Component {
             <span
               className={'textContentItemBody1'}>Firebase (Authentication, Database, Functions, Storage, Hosting, Cloud Messaging)</span>
             <span className={'textContentItemBody1'}>Database client (Realm, PouchDB, CouchDB)</span>
-            <span className={'textContentItemBody1'}>App center, OneSignal, GraphQL, Relay, Webpack, ElectronJS...</span>
+            <span
+              className={'textContentItemBody1'}>App center, OneSignal, GraphQL, Relay, Webpack, ElectronJS...</span>
           </div>
         </div>
 
@@ -243,6 +239,16 @@ export default class App extends Component {
             <span className={'textTitleItemBody'}>Projects</span>
           </div>
           <div className={'viewWrapContentItemBody'}>
+
+            <span className={'textContentItemBody'}>Flutter</span>
+            <div className={'viewWrapChildContent'}>
+              <span className={'textContentItemBody1'}>&#9679; Flutter integration - Add Flutter module (auth & user profile scope) to Tiki native app</span>
+              <span className={'textContentItemBody1'}>&#9679; Some demo in my Github</span>
+              <span className={'textContentItemBody1'}>&#9679; DailyPrayer (freelancing, contribution rate 100%) - The app to make plan a for your prayers (Firebase, Chat, Reminder, Notification...)</span>
+            </div>
+
+            <div style={{height: '10px'}}/>
+
             <span className={'textContentItemBody'}>React Native</span>
             <div className={'viewWrapChildContent'}>
               <span className={'textContentItemBody1'}>&#9679; MatchMe (outsourcing, contribution rate 80%) - The app to connect and join an activity with another person (DynamoDB, Lambda function, Map, Sendbird...)</span>
@@ -258,19 +264,11 @@ export default class App extends Component {
 
             <span className={'textContentItemBody'}>Android</span>
             <div className={'viewWrapChildContent'}>
-              <span className={'textContentItemBody1'}>&#9679; Tiki - checkout flow & my profile</span>
+              <span className={'textContentItemBody1'}>&#9679; Tiki mandroid app - checkout flow</span>
               <span className={'textContentItemBody1'}>&#9679; Tacko (outsourcing, contribution rate 20%) - The app to buy and sell handle products when you travel</span>
               <span className={'textContentItemBody1'}>&#9679; FeedMe (outsourcing, contribution rate 20%) - The app to sell and buy food</span>
             </div>
 
-            <div style={{height: '10px'}}/>
-
-            <span className={'textContentItemBody'}>Flutter</span>
-            <div className={'viewWrapChildContent'}>
-              <span className={'textContentItemBody1'}>&#9679; Flutter integration - Add Flutter to Tiki native app as a module</span>
-              <span className={'textContentItemBody1'}>&#9679; Some demo in my Github</span>
-              <span className={'textContentItemBody1'}>&#9679; DailyPrayer (freelancing, contribution rate 100%) - The app to make plan a for your prayers (Firebase, Chat, Reminder, Notification...)</span>
-            </div>
           </div>
         </div>
 

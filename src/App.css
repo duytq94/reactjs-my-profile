@@ -28,8 +28,8 @@ button:active {
     }
 
     .avatar {
-        width: 100px;
-        border-radius: 50px;
+        width: 120px;
+        border-radius: 60px;
     }
 
     .viewInfoHeader {
