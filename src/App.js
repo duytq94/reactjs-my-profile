@@ -96,7 +96,7 @@ export default class App extends Component {
           </div>
           <div className={'viewWrapContentItemBody'}>
             <span className={'textContentItemBody1'}>
-              {`A Mobile developer with healthy body and ${years} years ${months} months of practical programming experience. Familiar with Flutter, React Native and Android.`}
+              {`A mobile developer with healthy body and ${years} years ${months} months of practical programming experience. Familiar with Flutter, React Native and Android.`}
             </span>
             <span className={'textContentItemBody1'}>
               Having ability to build the backend with common functions, full basic flow to communicate between backend and client.
