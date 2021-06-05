@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ab6a2dfc55e9531dbc12ba66afce4be",
+    "revision": "ca4ba2ae06c2c12e7f19e198f61c0955",
     "url": "/reactjs-my-profile/index.html"
   },
   {
-    "revision": "bf292ed6ff76264ad2df",
-    "url": "/reactjs-my-profile/static/css/main.c805a85d.chunk.css"
+    "revision": "463a047e1d94ba082ddf",
+    "url": "/reactjs-my-profile/static/css/main.3faa3c16.chunk.css"
   },
   {
-    "revision": "510c2a60357032561a89",
-    "url": "/reactjs-my-profile/static/js/2.297fef43.chunk.js"
+    "revision": "c686c050a32cf83864ce",
+    "url": "/reactjs-my-profile/static/js/2.5c79bae4.chunk.js"
   },
   {
-    "revision": "bf292ed6ff76264ad2df",
-    "url": "/reactjs-my-profile/static/js/main.e424a53b.chunk.js"
+    "revision": "463a047e1d94ba082ddf",
+    "url": "/reactjs-my-profile/static/js/main.e7fe342a.chunk.js"
   },
   {
     "revision": "575dae9eb2fde37972ab",
     "url": "/reactjs-my-profile/static/js/runtime~main.81122daf.js"
   },
   {
-    "revision": "5445258a866038a40605ed0e8851d3e2",
-    "url": "/reactjs-my-profile/static/media/avatar.5445258a.jpg"
+    "revision": "167a8245c64a28f23bccc65d4edbc476",
+    "url": "/reactjs-my-profile/static/media/avatar.167a8245.jpg"
   },
   {
     "revision": "d2c74e7b430633770db40a3b975ddecc",
